@@ -5,12 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-    <script src="facebook.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="assets/javasctipt/facebook.js"></script>
+    <script src="assets/javascript/google.js"></script> -->
 
 </head>
-<body>
-    
-</body>
+    <body>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '140313476637183',
+                    xfbml      : true,
+                    version    : 'v2.11'
+                });
+                        
+                FB.AppEvents.logPageView();
+                };
+                  
+                (function(d, s, id){
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {return;}
+                    js = d.createElement(s); js.id = id;
+                    js.src = "https://connect.facebook.net/en_US/sdk.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+        </script>        
+
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+
+
+
+
+
+
+        
+    </body>
 </html>
+
+
+
+App ID
+140313476637183
+App Secret
+8bb8d1e7b735408d542264698ab320d4Reset
+Display Name
+
+up-keep
+Namespace
+
+up-keep
+App Domains
+github.comRemove
+Contact Email
+
+l.j.reader@hotmail.com
+Privacy Policy URL
+
+https://ljreader.github.io/homeMainPrivPolicy/
+Terms of Service URL
